@@ -26,7 +26,23 @@ import Sms_api
 ```python
 Sms_api.sendmessage('Mobile_No','Message')
 ```
-- Shedule Future SMS, print -> status of Message(Sheduled or Not)
+- Schedule Future SMS, print -> status of Message(Scheduled or Not)
 ```python
 Sms_api.sendmessage('Mobile_No','Message','DD/HH/YYYY','HH:MM') #(HH:MM)(24Hr Format)(18:34)
 ```
+##### Session will Logout Automatically after Sending or Scheduling SMS
+
+#### Requires:
+```
+requests module
+bs4 module
+re module
+'''
+
+# License
+You are free to use any part of this code, as long as you credit the Author
+
+# Author
+Jain Soham Dungerchand, BITS Pilani.
+
+**Free Messaging, Yeah!**
